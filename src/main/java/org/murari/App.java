@@ -1,9 +1,9 @@
-package org.example;
+package org.murari;
 
-import org.example.snakenladder.Board;
-import org.example.snakenladder.Dice;
-import org.example.snakenladder.Game;
-import org.example.snakenladder.Player;
+import org.murari.snakenladder.Board;
+import org.murari.snakenladder.Dice;
+import org.murari.snakenladder.Game;
+import org.murari.snakenladder.Player;
 
 import java.util.*;
 

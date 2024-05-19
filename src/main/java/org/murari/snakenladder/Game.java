@@ -1,4 +1,4 @@
-package org.example.snakenladder;
+package org.murari.snakenladder;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
