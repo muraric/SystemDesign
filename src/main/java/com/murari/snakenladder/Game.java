@@ -1,4 +1,4 @@
-package org.murari.snakenladder;
+package com.murari.snakenladder;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -22,6 +22,7 @@ public class Game {
             System.out.println();
 
             Player player = players.poll();
+            assert player != null;
             String playerName = player.getName();
             int luckyCounter = dice.rollDice();
             if (luckyCounter + playerPosition.get(playerName) <= 100) {

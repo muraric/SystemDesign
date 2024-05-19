@@ -1,4 +1,4 @@
-package org.murari;
+package com.murari;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

@@ -1,9 +1,9 @@
-package org.murari;
+package com.murari;
 
-import org.murari.snakenladder.Board;
-import org.murari.snakenladder.Dice;
-import org.murari.snakenladder.Game;
-import org.murari.snakenladder.Player;
+import com.murari.snakenladder.Dice;
+import com.murari.snakenladder.Player;
+import com.murari.snakenladder.Board;
+import com.murari.snakenladder.Game;
 
 import java.util.*;
 
@@ -16,8 +16,8 @@ public class App
     public static void main( String[] args )
     {
         System.out.println( "Hello World!" );
-        Map<Integer, Integer> snakeMap = new HashMap<Integer, Integer>();
-        Map<Integer, Integer> ladderMap = new HashMap<Integer, Integer>();
+        Map<Integer, Integer> snakeMap = new HashMap<>();
+        Map<Integer, Integer> ladderMap = new HashMap<>();
         snakeMap.put(25,5);
         snakeMap.put(45,12);
         snakeMap.put(99,1);
